@@ -1,0 +1,42 @@
+# Ignore build output
+/build/
+/*.bin
+/*.elf
+/*.map
+
+# CMake intermediate files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# ESP-IDF generated config
+sdkconfig
+sdkconfig.old
+
+# Visual Studio Code
+.vscode/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Logs or crash dumps
+*.log
+*.dmp
+
+# Hidden files from macOS
+.DS_Store
+
+# Windows thumbs
+Thumbs.db
+
+# ESP-IDF specific generated files
+.project/
+.cproject/
+.settings/
+
+# Temporary files
+*.swp
+*.swo
+
