@@ -1,0 +1,11 @@
+menu "Custom Project Config"
+
+config MAPBOX_KEY
+    string "MAPBOX API Key"
+    default "not-set"
+
+config API_URL
+    string "API URL"
+    default "https://example.com/data"
+
+endmenu

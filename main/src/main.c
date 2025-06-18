@@ -1,8 +1,8 @@
-#include "wifi_conn.h"
+#include "init.h"
 
 
 void app_main(){
-ini
+init();
 
 
 
